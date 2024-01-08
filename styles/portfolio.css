@@ -107,11 +107,12 @@
     color: #F00;
 }
 
-.place {
+.New-text {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
+    border-radius: 10px;
 
 
 }
@@ -119,23 +120,88 @@
 .button {
     display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
     border-radius: 8px;
     background: #F00;
 }
-.button{
+
+.button {
     color: #FFF;
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.New-text {
+    text-align: center;
+}
+
+.place {
+    padding-top: 100px;
+}
+
+.banner-title {
+    padding-top: 15px;
+}
+
+.banner-welcome {
+    padding-top: 10px;
+}
+
+.welcome-line {
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.year-pic {
+    padding-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.new-lines {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.new-line {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pera-grap {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.full-line {
+    padding-left: 20px;
+}
+
+.photo {
+    width: 364.844px;
+    height: 364.844px;
+}
+
+.new-liner {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: uppercase;
 }
-.New-text{
-    text-align: center;
-    padding-bottom: 0px;
+.right-side{
+    text-align: right;
 }
