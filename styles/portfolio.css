@@ -185,9 +185,9 @@
     /* 160% */
 }
 
-.full-line {
+/* .full-line {
     padding-left: 20px;
-}
+} */
 
 .photo {
     width: 364.844px;
@@ -202,6 +202,22 @@
     font-weight: 700;
     line-height: normal;
 }
-.right-side{
+
+/* .right-side {
     text-align: right;
+} */
+
+.full-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set a height for the container */
+    
+}
+
+.round-image {
+    border-radius: 50%;
+    /* Makes the image round */
+    width: 364.844px;
+    height: 364.844px;
 }
