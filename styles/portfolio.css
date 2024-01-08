@@ -212,7 +212,7 @@
     justify-content: center;
     align-items: center;
     /* Set a height for the container */
-    
+
 }
 
 .round-image {
@@ -220,4 +220,69 @@
     /* Makes the image round */
     width: 364.844px;
     height: 364.844px;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-between;
+
+.offer-container h3 {
+    color: #F00;
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.pic-container {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    background: rgb(255, 255, 255) -91.279px 0px / 150.038% 100% no-repeat;
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    text-align: center;
+    display: flex;
+}
+
+.photo-container h1 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.photo-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.second-pic {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.offer-container h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.offer-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
 }
